@@ -19,9 +19,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.map do |element|
     if element.length > 4
-      return TRUE
+      return true
     else
-      return FALSE
+      return false
     end
   end
 end
